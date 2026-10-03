@@ -173,7 +173,7 @@ def shell(active, title, heading, sub, body, extra_head=""):
 <aside class="side"><a class="brand" href="index.html"><span class="logo">SR</span><span>Signal Room</span></a><nav>{nav}</nav>
 <div class="sidefoot"><button class="themet" type="button" aria-pressed="false">{icon("moon")}<span>Dark mode</span><span class="sw"><i></i></span></button><a href="{REPO}" target="_blank" rel="noopener">{icon("gh")}<span>Source code</span></a></div></aside>
 <main><header class="top"><div><h1>{heading}</h1><p class="sub">{e(sub)}</p></div></header>
-{body}<footer class="foot">Not financial advice. · Version {asset_version()}</footer></main></div>
+{body}<footer class="foot">Not financial advice.</footer></main></div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4" crossorigin="anonymous"></script><script src="assets/site.js?v={asset_version()}"></script></body></html>"""
 
 
